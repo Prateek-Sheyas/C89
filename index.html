@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+
+<script src="main.js"></script>
+</head>
+<body>
+	<style>
+body
+{
+    background-image: url("img.jpg");
+}
+	</style>
+
+	<center>
+		<h1 style="margin-top: 100px; color: red; font-size: 60px;"> Math Quiz </h1>
+		<div>
+			<h3 style="font-size: 45px; color: orange;"> Player 1 login for the game </h3>
+			<label style="font-size: 40px; color: yellow;"> User Name : </label>
+			<input type="text" id="player1_name_input" placeholder="Player 1 Name"  style="font-size: 40px;">
+			<br>
+		</div>
+			<br>
+
+			<div>
+				<h3 style="font-size: 45px; color: orange;"> Player 2 login for the game </h3>
+				<label style="font-size: 40px; color: yellow;"> User Name : </label>
+				<input type="text" id="player2_name_input" placeholder="Player 2 Name" style="font-size: 40px;">
+				<br>
+			</div>
+		<br>
+		
+		<button class="btn btn-primary" onclick="addUser()"  style="font-size: 40px; background-color: green;"> Log In</button>
+	</center>
+
+</body>
+</html>
